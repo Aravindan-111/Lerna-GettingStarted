@@ -1,5 +1,5 @@
 const express = require("express");
-const Sum = require("@lerna/sum"); 
+const { Sum } = require("@lerna/arithmetic"); 
 const PORT = process.env.PORT || 5000;
 const app = express();
 
